@@ -18,8 +18,6 @@
                             :level="level + 1"
                             @selected="select"
                         />
-
-                        <div v-else key="empty" />
                     </teleport>
                 </template>
             </li>
